@@ -712,7 +712,8 @@ to {opacity: 1}
 }
 
 footer{
-    padding: 10px;
+    padding:10px 120px;
+    font-size: 16px;
     text-align: center;
     color: whitesmoke;
     background: linear-gradient(180deg, rgba(36, 36, 36), rgba(0, 0, 0))
@@ -1017,7 +1018,7 @@ footer{
   .full {
     position: fixed;
     left: 0;
-    top: 0;
+    top: 48px;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -1029,12 +1030,13 @@ footer{
     display: grid;
   }
   .full .content img {
+    bottom: 100%;
     left: 50%;
     transform: translate3d(0, 0, 0);
     animation: zoomin .5s ease;
     max-width: 100%;
-    max-height: 100%;
-    margin: auto;
+    max-height: 80vh;
+    margin: 60px auto;
   }
   .byebye {
     opacity: 0;
@@ -1077,7 +1079,7 @@ footer{
   }
   @media (max-width: 400px) {
     .gallery {
-      grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
     }
   }
   @-moz-keyframes zoomin {
@@ -1230,14 +1232,21 @@ footer{
     }
     .form_contacto{
         padding: 0;
-        margin: 0;
+        margin:  0;
         width: 100%;
+        height: 100%;
     }
     .texto_S1{
         padding-top: 50px;
     }
+    footer{
+        font-size: 12px;
+        height: 50px;
+    }
+    .contact-form{
+        margin-top: 50px;
+    }
 }
-
 @media only screen and (max-width: 750px){
     .menu{
         height:55px;
@@ -1353,6 +1362,10 @@ footer{
     .texto_S1{
         padding-top: 50px;
     }
+    footer{
+        padding: 10px 90px 10px 10px;
+        font-size: 10px;
+    }
 }
 @media only screen and (max-width: 490px){
     .Gprinter_logo{
@@ -1380,13 +1393,16 @@ footer{
     .imagen_S1{
         padding:10px;
     }
-  
+    .texto_S1{
+        padding: 10px 20px;
+    }
     .texto_titulo_S1{
         font-size: 20px;
     }
     .texto_descripcion_S1 {
         font-size: 13px;
     }
+
     .contact-form legend{
         font-size: 19px;
     }
@@ -1416,5 +1432,4 @@ footer{
     .menu_desplegar a{
         width: 220px;
     }
-   
 }
