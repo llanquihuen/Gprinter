@@ -11,7 +11,9 @@ document.getElementById("menu_serv").addEventListener("mouseout", () =>{
 document.getElementById("desplegable").addEventListener("mouseout", () =>{
     document.getElementById("desplegable").classList.add("disp_none")
 })
-
+document.getElementById("Glogo").addEventListener("click", () =>{
+    window.location.href = "index.html";
+})
 
 var gallery = document.querySelector('#gallery');
 var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };

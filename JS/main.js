@@ -64,7 +64,9 @@ window.addEventListener("scroll", (e) => {
 
     }
 });
-
+document.getElementById("Glogo").addEventListener("click", () =>{
+    window.location.href = "index.html";
+})
 document.getElementById("instagram").addEventListener("click", () =>{
     window.location.href = "https://www.instagram.com/gprinter_/";
 })
