@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Comfortaa:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <title>Gprinter</title>
+</head>
+
+<body>
+    <div class="header disp_none">
+        <img class="header_img Gprinter_logo" src="assets/pics/gprinter_logo2.png" alt="Logo Gprinter">
+        <div class="flexrow">
+            <img class="header_img phone_logo" src="assets/pics/phone-icon-white-png-17.jpg" alt="Telefono">
+            <p class="telefonos_header">+56 2 1234 5678 <br> +56 9 5766 4504</p>
+        </div>
+    </div>
+    <nav id="menu" class="stick">
+        <img src="assets/pics/gprinter_logo2.png" alt="Gprinter Logo">
+        <div>
+            <a class="hvr-underline-from-center" href="index.html">Home</a>
+
+        </div>
+        <div class="menu_des">
+            <a id="menu_serv" class="hvr-underline-from-center  servi_menu">Servicios</a>
+            <div id="desplegable" class="menu_desplegar disp_none">
+                <a href="impresion_digital.html">Impresion Digital Flexible</a>
+                <a href="letras_volumetricas.html">Letras Volumetricas</a>
+                <a href="rotulado_de_vehiculos.html">Rotulado de Vehiculos</a>
+                <a href="otros.html">Otros Servicios</a>
+
+            </div>
+        </div>
+        <div>
+            
+            <a class="hvr-underline-from-center" href="contacto.html">Nosotros</a>
+        </div>
+     
+        
+    </nav>
+    <div class="servicios_title padd_services">
+        <h2>No se que es esta cosa</h2>
+        <hr class="hrV">
+
+    </div>
+
+    <!-- Imagen y texto Servicios -->
+    <div class="texto_imagen_S1">
+        <div class="imagen_S1">
+            <img src="assets/pics/22802358_1721522151205430_2618180474157137920_n.jpg" alt="">
+        </div>
+        <div class="texto_S1">
+            <div class="flex_icon">
+                <img src="assets/pics/digital-printing-icon-36.png" alt="">
+            </div>
+            <h2 class="texto_titulo_S1">Conoce nuestro servicio de impresión digital de grandes formatos e
+                instalaciones dirigido a empresas.</h2>
+            <p class="texto_descripcion_S1">El formato de impresión digital puede ser desde tamaño carta hacia arriba.
+                Contamos con máquinas de impresión de última tecnología de 1.60 y 3.30, con lo que se puede sacar en un
+                solo corte, o si son formatos mayores varios paños.
+                <br><br>
+                – Troquelado corte manual <br>
+                – Troquelado Corte recto<br>
+                – Troquelado en Router<br>
+                – Troquelado externo en troquel de mandíbula.<br><br>
+
+                Contamos con plotter de corte, plotter de impresión y plotter que imprimen y cortan.
+            </p>
+        </div>
+    </div>
+
+    <!-- Minigaleria -->
+    <div class="minigaleria">
+        <img src="assets/pics/110199418_2641930012801184_622150754421964486_n.jpg" alt="">
+
+        <img src="assets/pics/22794106_1942848839314841_5010199523968942080_n.jpg" alt="">
+        <img src="assets/pics/22802358_1721522151205430_2618180474157137920_n.jpg" alt="">
+        <img src="assets/pics/22794106_1942848839314841_5010199523968942080_n.jpg" alt="">
+        <img src="assets/pics/vinilo.jpg" alt="">
+        <img src="assets/pics/110199418_2641930012801184_622150754421964486_n.jpg" alt="">
+    </div>
+<!-- Contacto -->
+<div class="form_imagen">
+    <div class="form_contacto">
+        <form class="contact-form" >
+            <legend>Contactate con nosotros</legend>
+            <hr class="hrV lineac">
+
+            <div class="contact_flex1">
+            <input type="text" name="name" placeholder="Nombre" title="El nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+            <input type="email" name="email" placeholder="Mail" title="Email Incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+            </div>
+            <div class="contact_flex1">
+                <textarea name="comments" cols="50" rows="5" placeholder="Escribe tus comentarios" title="Tu comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$" required></textarea>
+                <div class="contact_flex2">
+                    <input type="text" name="subject" placeholder="Asunto" title="El asunto es requerido" required>
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+                
+            <div class="contact-form-loader none">
+                <img src="assets/Spinner-1s-200px.svg" alt="Cargando">
+            </div>
+            <div class="contact-form-response none">
+                <p>Los datos han sido enviados</p>
+            </div>
+    
+    </form>
+    </div>
+
+        <div class="imagen_Contacto">
+            <img src="assets/pics/22794259_1724015617608880_2135795985425629184_n.jpg" alt="">
+        </div>
+</div>
+    <!-- Footer -->
+
+    <footer>
+        CONTACTO: ventas@gprinter.cl – Tel: +562 1234 5678 / +56 9 5766 4504 – Av. Irarrazaval #3054 Of 304-A, Ñuñoa,
+        Región Metropolitana
+    </footer>
+
+    <a href="https://api.whatsapp.com/send?phone=56983518918&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre."
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+</body>
+<script src="JS/services.js"></script>
+
+
+</html>
