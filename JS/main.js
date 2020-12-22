@@ -52,15 +52,18 @@ function showSlides2() {
 
 // ---- MENU STICKY
 let menu= document.getElementById("menu")
+let logoG = document.getElementById("logoG")
 window.addEventListener("scroll", (e) => {
     if (window.scrollY<105) {
         menu.classList.remove("stick")
         menu.classList.add("menu")
+        logoG.classList.remove("disp_none")
 
 
     }else{
         menu.classList.add("stick")
         menu.classList.remove("menu")
+        logoG.classList.add("disp_none")
 
     }
 });
@@ -71,6 +74,12 @@ document.getElementById("instagram").addEventListener("click", () =>{
     window.location.href = "https://www.instagram.com/gprinter_/";
 })
 document.getElementById("facebook").addEventListener("click", () =>{
+    window.location.href = "https://www.facebook.com/gprinterchile";
+})
+document.getElementById("instagram2").addEventListener("click", () =>{
+    window.location.href = "https://www.instagram.com/gprinter_/";
+})
+document.getElementById("facebook2").addEventListener("click", () =>{
     window.location.href = "https://www.facebook.com/gprinterchile";
 })
 
