@@ -404,10 +404,10 @@ to {opacity: 1}
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 3vw;
+    column-gap: 2vw;
     row-gap: 20px;
     justify-content: center;
-    padding:50px 9%;
+    padding:50px 6%;
     position: relative;
     background-color: rgb(250, 250, 250);
 
