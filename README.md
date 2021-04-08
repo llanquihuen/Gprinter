@@ -1,4 +1,4 @@
 # Gprinter
 Pagina gprinter 
-
--only HTML-CSS-JAVASCRIPT
+- Responsive
+- Only HTML-CSS-JAVASCRIPT
